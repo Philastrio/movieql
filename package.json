@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "yarn run build"
   },
-  "homepage": "https://quirky-thompson-5420a8.netlify.com",
+  "homepage": "https://gentle-stream-72690.herokuapp.com/",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
