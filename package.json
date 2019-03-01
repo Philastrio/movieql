@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Movie API with Graphql",
   "main": "index.js",
-  "repository": "https://github.com/philastrio/movieql.git",
+  "repository": "https://quirky-thompson-5420a8.netlify.com",
   "author": "philastrio <han_gang@naer.com>",
   "license": "MIT",
   "dependencies": {
@@ -14,8 +14,7 @@
     "nuxt": "lastest"
   },
   "scripts": {
-    // "start": "nodemon --exec babel-node index.js"
-    "start": "nuxt start"
+    "start": "nodemon --exec babel-node index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
