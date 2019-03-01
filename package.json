@@ -3,19 +3,23 @@
   "version": "1.0.0",
   "description": "Movie API with Graphql",
   "main": "index.js",
-  "repository": "https://quirky-thompson-5420a8.netlify.com",
+  "repository": "https://github.com/philastrio/movieql",
   "author": "philastrio <han_gang@naer.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "eslint": "5.12.0",
+    "gh-pages": "^2.0.1",
     "graphql-yoga": "^1.17.4",
     "node-fetch": "^2.3.0",
     "nuxt": "lastest"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build"
   },
+  "homepage": "https://quirky-thompson-5420a8.netlify.com",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
